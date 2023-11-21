@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Ana Luísa Caixeta">
+        <meta name="desription" content="">
+        <meta name="keyword" content="">
+        <link rel="stylesheet" href="style.css">
+        <title>Pizzaria Donnana</title>
+    </head>
+
+    <body>
+        <!-- Menu de Navegação -->
+        <nav>
+            <a class="a-menu" href="#">HOME</a>
+            <a class="a-menu" href="#pag-sobre">SOBRE</a>
+            <a class="a-menu" href="#pag-destaques">DESTAQUES</a>
+            <a class="a-menu" href="#pag-login">LOGIN</a>
+        </nav>
+
+        <!-- Banner -->
+        <header>
+            <img src="img/banner.jpg" alt="Banner da pizzaria Donnana">
+        </header>
+
+        <!-- Parte principal -->
+        <article id="pag-sobre">
+            <h1>Pizzaria Donnana</h1>
+
+            <p>Sinta-se na Itália apreciando uma saborosa pizza e com ambiente aconchegante que remonta cenários italianos.
+                A experiência na Pizzaria Donnana é única.</p>
+                
+            <p>Qualquer momento da semana é ideal para um excelente pizza. E nós, da Pizzaria Donnana, entregamos com
+                excelência o que você deseja, tanto presenciamente quanto por delivery. Não espere para depois, estamos te
+                aguardando!</p>
+
+        </article>
+
+        <section id="pag-destaques">
+            <h2>Destaques</h2>
+
+            <p>Na Pizzaria Donnana, você encontra os melhores sabores de pizzas. Dentre elas nós temos:</p>
+
+            <div id="container">
+
+                <div class="card">
+                    <img class="img-destaques" src="img/calabresa.jpg" alt="Pizza de calabresa">
+                    <div class="conteudo">
+                        <p class="p-negrito">Calabresa</p>
+                        <p>R$49,90</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="img-destaques" src="img/frango-catupiry.jpg" alt="Pizza de Frango com Catupiry">
+                    <div class="conteudo">
+                        <p class="p-negrito">Frango com catupiry</p>
+                        <p>R$49,90</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="img-destaques" src="img/marguerita.jpg" alt="Pizza Marguerita">
+                    <div class="conteudo">
+                        <p class="p-negrito">Marguerita</p>
+                        <p>R$49,90</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="img-destaques" src="img/portuguesa.jpg" alt="Pizza Portuguesa">
+                    <div class="conteudo">
+                        <p class="p-negrito">Portuguesa</p>
+                        <p>R$49,90</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pag-login">
+            <h2>Login</h2>
+            <div id="card-login">
+                <form name="form">
+                    <label for="email">Email:</label>
+                    <input id="email" type="email" placeholder="nome@email.com">
+
+                    <label for="senha">Senha:</label>
+                    <input id="senha" type="password" placeholder="Somente números">
+
+                    <div id="botoes">
+                        <input type="submit" name="login" value="LOGIN">
+                        <input type="reset" name="cancelar" value="CANCELAR">
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <p>Desevolvido por <a id="a-footer" href="https://www.instagram.com/ana.caixeta/" target="_blank">Ana Luísa
+                    Caixeta</a> - 2023</p>
+        </footer>
+    </body>
+</html>

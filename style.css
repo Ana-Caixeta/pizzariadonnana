@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Lora&display=swap');
+
+/* Menu navegação */
+nav{
+    text-align: right;
+    background-color: #000;
+    padding: 30px;
+}
+
+.a-menu{
+    text-decoration: none;
+    color: #fff;
+    padding-right: 20px;
+    font: 1.2rem 'DM Serif Display', serif;
+    letter-spacing: 2px;
+}
+
+body{
+    background-color: #fffde6;
+    margin: auto;
+}
+
+/* Banner do site */
+header img{
+    width: 100%;
+}
+
+/* Título principal */
+h1{
+    font: 2.5rem 'DM Serif Display', serif;
+    padding-left: 25px;
+    color: #155c44;
+}
+
+p{
+    font: 1.1rem 'Lora', serif;
+}
+
+article p{
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: justify;
+}
+
+/* Destaques */
+#pag-destaques{
+    background-color: #fffff6;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 35px;
+}
+
+h2{
+    font: 2rem 'DM Serif Display', serif;
+    padding-top: 15px;
+    color: #00796B;
+}
+
+#container{
+    display: flex;
+}
+
+.card{
+    box-shadow: 0 8px 8px 0 #ccc;
+    margin: 15px;
+    width: 25%;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.card:hover{
+    background-color: #ccc;
+}
+
+.img-destaques{
+    width: 100%;
+    box-shadow: 0 0 8px 0 #ccc;
+    border-radius: 8px 8px 0 0;
+}
+
+.conteudo{
+    display: flex;
+    margin: 8px;
+    justify-content: space-between;
+}
+
+.p-negrito{
+    font-weight: bold;
+}
+
+/* Login */
+#pag-login{
+    padding-left: 25px;
+    padding-right: 25px;    
+}
+
+form{
+    width: 280px;
+    margin: auto;
+}
+
+#card-login{
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 #ccc;
+    padding: 30px;
+    width: 40%;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 45px;
+}
+
+label{
+    font: 1.1rem 'Lora', serif;
+}
+
+input{
+    font: 1rem 'Lora', serif;
+    padding-left: 8px;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    height: 30px;
+    border: 1px solid #ccc;
+}
+
+#botoes{
+    display: flex;
+
+}
+
+input[type="submit"], input[type="reset"]{
+    background-color: rgb(120, 206, 255);
+    color: #fff;
+    border: #ccc;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+input[type="reset"]{
+    background-color: rgba(255, 88, 88, 0.788);
+}
+
+/* Footer */
+footer{
+    padding: 30px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+#a-footer{
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* Hover footer e menu de navegação */
+#a-footer:hover, .a-menu:hover{
+    color: #ccc;
+}
